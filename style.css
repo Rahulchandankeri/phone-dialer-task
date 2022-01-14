@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #5da1f5;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.container {
+  margin: 10rem auto;
+  background-color: #fff;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  font-family: sans-serif, "sans", "Segoe UI";
+  -webkit-box-shadow: 0 0.25rem 0.5rem rgba(112, 112, 112, 0.1);
+  box-shadow: 0 0.25rem 0.5rem rgba(112, 112, 112, 0.1);
+}
+
+.container .input {
+  background-color: #fff;
+  color: #41a0ee;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  min-height: 3.5rem;
+  padding: 1rem;
+}
+
+.container .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.container .main .number-block {
+  padding: 1rem;
+  min-width: 2rem;
+  max-width: 5rem;
+}
+
+.container .main .number-block:hover {
+  background-color: #d8d8d8;
+}
+
+.container .main .number-block .num {
+  padding: 2rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #000;
+  cursor: pointer;
+}
+
+.container .main .number-block .caption {
+  display: block;
+  font-weight: 600;
+  color: rgba(80, 80, 80, 0.349);
+  text-align: center;
+}
+
+.container .main .number-block-nohover {
+  padding: 1rem;
+  min-width: 2rem;
+  opacity: 0.9;
+}
+
+.container .main .number-block-nohover:hover {
+  opacity: 1;
+}
+
+.container .main .call {
+  background: #67985c;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.8rem 2.2rem 0.4em 2.2em;
+  cursor: pointer;
+}
+
+.container .main .star,
+.container .main .back {
+  padding: 2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.container .main .call-ico {
+  height: 1.1rem;
+  width: 1.1rem;
+}
+/*# sourceMappingURL=style.css.map */
