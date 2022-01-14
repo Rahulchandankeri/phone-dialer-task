@@ -4,11 +4,11 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 body {
-  background-color: #5da1f5;
+  background-color: #85cefc;
   line-height: 1.6;
   font-weight: 300;
 }
@@ -22,16 +22,20 @@ body {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   font-family: sans-serif, "sans", "Segoe UI";
   -webkit-box-shadow: 0 0.25rem 0.5rem rgba(112, 112, 112, 0.1);
-  box-shadow: 0 0.25rem 0.5rem rgba(112, 112, 112, 0.1);
+          box-shadow: 0 0.25rem 0.5rem rgba(112, 112, 112, 0.1);
 }
 
 .container .input {
   background-color: #fff;
   color: #41a0ee;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   min-height: 3.5rem;
   padding: 1rem;
@@ -42,8 +46,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0.5rem;
 }
 
